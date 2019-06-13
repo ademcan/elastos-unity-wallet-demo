@@ -39,6 +39,8 @@ install:
   - npm install -g react-native-cli
   - npm install -g detox-cli
   - npm install
+  - react-native link
+  - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
 
 script:
   - detox build --configuration ios.sim.release
