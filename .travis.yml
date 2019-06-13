@@ -9,6 +9,7 @@ before_script:
   - npm i
   - npm install -g react-native-cli
   - react-native link
+  - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
 script:
   - react-native start &
   - react-native run-ios --simulator="iPhone XR"
