@@ -7,6 +7,17 @@
     "test-ios": "./node_modules/.bin/wdio config/wdio.ios.app.conf.js",
     "test-android": "./node_modules/.bin/wdio config/wdio.android.app.conf.js"
   },
+  "detox": {
+    "configurations": {
+      "ios.sim.debug": {
+        "binaryPath": "ios/build/Build/Products/Debug-iphonesimulator/RNMainchainDemo.app",
+        "build": "xcodebuild -project ios/RNMainchainDemo.xcodeproj -scheme RNMainchainDemo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
+        "type": "ios.simulator",
+        "name": "iPhone Xʀ"
+      }
+    },
+    "test-runner": "mocha"
+  },
   "dependencies": {
     "react": "16.6.0-alpha.8af6728",
     "react-native": "0.57.4",
