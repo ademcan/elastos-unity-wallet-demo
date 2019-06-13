@@ -108,10 +108,11 @@ class Start extends Component {
   }
 
   GenerateMnemonic = () => {
-    RNElastosMainchain.GenerateMnemonic( (err, res) => {
-      // this.setState({seedText: res})
-      this.setState({result: res})
-    });
+    this.setState({result: 'success'})
+    // RNElastosMainchain.GenerateMnemonic( (err, res) => {
+    //   // this.setState({seedText: res})
+    //   this.setState({result: res})
+    // });
   }
 
   CreateWallet = () => {
@@ -130,7 +131,7 @@ class Start extends Component {
 
     return (
       <View style={styles.container}>
-          <Text testID={'txt:Result'} accessibilityLabel={"txt:Result"} style={styles.result}>{this.state.result}</Text>
+          <Text testID={'txt:Result'} style={styles.result}>{this.state.result}</Text>
 
           {/* <View style={{marginLeft:100, marginRight:100, marginBottom:10}}>
             <Button

@@ -14,6 +14,12 @@
         "build": "xcodebuild -project ios/RNMainchainDemo.xcodeproj -scheme RNMainchainDemo -configuration Debug -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
         "type": "ios.simulator",
         "name": "iPhone Xʀ"
+      },
+      "ios.sim.release": {
+        "binaryPath": "ios/build/Build/Products/Release-iphonesimulator/RNMainchainDemo.app",
+        "build": "xcodebuild -project ios/RNMainchainDemo.xcodeproj -scheme RNMainchainDemo -configuration Release -sdk iphonesimulator -derivedDataPath ios/build -UseNewBuildSystem=NO",
+        "type": "ios.simulator",
+        "name": "iPhone Xʀ"
       }
     },
     "test-runner": "mocha"
