@@ -14,5 +14,5 @@ script:
   - react-native start &
   - react-native run-ios --simulator="iPhone XR"
   - react-native run-ios --simulator="iPhone XR"
-  - sleep 180
+  - sleep 120
   - npm run test-ios
