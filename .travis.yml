@@ -26,11 +26,11 @@ branches:
 env:
   global:
   - NODE_VERSION=10.2.1
-
+before_install:
+  - brew install git-lfs
 install:
   - brew tap wix/brew
   - brew install applesimutils
-  - brew install git-lfs
   - git lfs pull
   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
   - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
@@ -42,7 +42,6 @@ install:
   - npm install
   - react-native link
   - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
-
 script:
   - detox build --configuration ios.sim.release
   - detox test --configuration ios.sim.release --cleanup
