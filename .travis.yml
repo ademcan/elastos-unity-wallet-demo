@@ -12,7 +12,5 @@ before_script:
   - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
 script:
   - react-native start &
-  - react-native run-ios --simulator="iPhone XR"
-  - react-native run-ios --simulator="iPhone XR"
   - sleep 120
   - npm run test-ios
