@@ -1,0 +1,16 @@
+language: node_js
+node_js: 10.2.1
+os: osx
+osx_image: xcode10.1
+env: DEVICE=12.1
+before_script:
+  - rm -rf package-lock.json
+  - rm -rf node_modules
+  - npm i
+  - npm install -g react-native-cli
+  - react-native link
+script:
+  - react-native start &
+  - react-native run-ios --simulator="iPhone XR"
+  - sleep 120
+  - npm run test-ios
