@@ -1,131 +1,235 @@
-2019-04-27 09:23:07 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7f89c6c3bf50; archive(resolved)='<IDEArchive: 0x7f89e33035a0>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+2019-06-13 08:42:19 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x7fd836820390; archive(resolved)='<IDEArchive: 0x7fd834277890>', distributionTask(resolved)='2', distributionDestination(resolved)='1', distributionMethod(resolved)='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team(resolved)='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
 	Chain (12, self inclusive):
-	<IDEDistributionProcessingPipelineContext: 0x7f89c6c3bf50; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionProcessingPipelineContext: 0x7f89c6c77100; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e531c840; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e511f8c0; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e53405e0; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e533ebb0; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e530ccd0; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e24c7210; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e2c6bc00; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7f89e8783160; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
-	<IDEDistributionContext: 0x7f89e2c76170; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='(null)'>
-	<IDEDistributionContext: 0x7f89c6c02c90; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7f89f3ac3090>', team='(null)'>
-	<IDEDistributionContext: 0x7f89e35f3610; archive = '<IDEArchive: 0x7f89e33035a0>', distributionMethod='(null)', team='(null)'>
-</IDEDistributionProcessingPipelineContext: 0x7f89c6c3bf50>
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCreateDestRootStep
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCopyItemStep
-2019-04-27 09:23:07 +0000  Running /usr/bin/ditto '-V' '/Users/abilican/Library/Developer/Xcode/Archives/2019-04-27/RNMainchainDemo 27.04.19, 11.22.xcarchive/Products/Applications/RNMainchainDemo.app' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app'
-2019-04-27 09:23:07 +0000  >>> Copying /Users/abilican/Library/Developer/Xcode/Archives/2019-04-27/RNMainchainDemo 27.04.19, 11.22.xcarchive/Products/Applications/RNMainchainDemo.app 
-2019-04-27 09:23:07 +0000  copying file ./_CodeSignature/CodeResources ... 
-2019-04-27 09:23:07 +0000  6659 bytes for ./_CodeSignature/CodeResources
-2019-04-27 09:23:07 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
-2019-04-27 09:23:07 +0000  3121 bytes for ./Base.lproj/LaunchScreen.nib
-2019-04-27 09:23:07 +0000  copying file ./RNMainchainDemo ... 
-2019-04-27 09:23:07 +0000  11330944 bytes for ./RNMainchainDemo
+	<IDEDistributionProcessingPipelineContext: 0x7fd836820390; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionProcessingPipelineContext: 0x7fd836086fa0; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd8307df450; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd83602c360; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd83077c630; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd830754a30; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd847cf0310; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd8342f93b0; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd83443f820; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='<IDEProvisioningDisambiguatableBasicTeam: 0x7fd82ef71670; teamID='YU3GP553RA', teamName='Adem Bilican', teamType='Individual', username='a.bilican@me.com', isFreeProvisioningTeam='0'>'>
+	<IDEDistributionContext: 0x7fd836349c20; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='(null)'>
+	<IDEDistributionContext: 0x7fd836127ae0; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='<IDEDistributionMethodDevelopmentSigned: 0x7fd82f952290>', team='(null)'>
+	<IDEDistributionContext: 0x7fd830763ea0; archive = '<IDEArchive: 0x7fd834277890>', distributionMethod='(null)', team='(null)'>
+</IDEDistributionProcessingPipelineContext: 0x7fd836820390>
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCreateDestRootStep
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCopyItemStep
+2019-06-13 08:42:19 +0000  Running /usr/bin/ditto '-V' '/Users/abilican/Library/Developer/Xcode/Archives/2019-06-13/RNMainchainDemo 13.06.19, 10.41.xcarchive/Products/Applications/RNMainchainDemo.app' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app'
+2019-06-13 08:42:19 +0000  >>> Copying /Users/abilican/Library/Developer/Xcode/Archives/2019-06-13/RNMainchainDemo 13.06.19, 10.41.xcarchive/Products/Applications/RNMainchainDemo.app 
+2019-06-13 08:42:19 +0000  copying file ./_CodeSignature/CodeResources ... 
+2019-06-13 08:42:19 +0000  14443 bytes for ./_CodeSignature/CodeResources
+2019-06-13 08:42:19 +0000  copying file ./AppIcon20x20@2x.png ... 
+2019-06-13 08:42:19 +0000  1720 bytes for ./AppIcon20x20@2x.png
+copying file ./AppIcon57x57.png ... 
+2019-06-13 08:42:19 +0000  2426 bytes for ./AppIcon57x57.png
+copying file ./AppIcon20x20@3x.png ... 
+2019-06-13 08:42:19 +0000  2433 bytes for ./AppIcon20x20@3x.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon29x29.png ... 
+2019-06-13 08:42:19 +0000  1312 bytes for ./AppIcon29x29.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon60x60@2x.png ... 
+2019-06-13 08:42:19 +0000  5954 bytes for ./AppIcon60x60@2x.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon72x72@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  7301 bytes for ./AppIcon72x72@2x~ipad.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon29x29@2x.png ... 
+2019-06-13 08:42:19 +0000  2482 bytes for ./AppIcon29x29@2x.png
+copying file ./AppIcon40x40@3x.png ... 
+2019-06-13 08:42:19 +0000  5954 bytes for ./AppIcon40x40@3x.png
+copying file ./AppIcon57x57@2x.png ... 
+2019-06-13 08:42:19 +0000  5631 bytes for ./AppIcon57x57@2x.png
+copying file ./AppIcon29x29~ipad.png ... 
+2019-06-13 08:42:19 +0000  1312 bytes for ./AppIcon29x29~ipad.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon40x40@2x.png ... 
+2019-06-13 08:42:19 +0000  3865 bytes for ./AppIcon40x40@2x.png
+copying file ./AppIcon29x29@3x.png ... 
+2019-06-13 08:42:19 +0000  4273 bytes for ./AppIcon29x29@3x.png
+copying file ./AppIcon60x60@3x.png ... 
+2019-06-13 08:42:19 +0000  9569 bytes for ./AppIcon60x60@3x.png
+2019-06-13 08:42:19 +0000  copying file ./Base.lproj/LaunchScreen.nib ... 
+2019-06-13 08:42:19 +0000  3115 bytes for ./Base.lproj/LaunchScreen.nib
+2019-06-13 08:42:19 +0000  copying file ./Assets.car ... 
+2019-06-13 08:42:19 +0000  249096 bytes for ./Assets.car
+copying file ./RNMainchainDemo ... 
+2019-06-13 08:42:19 +0000  11364176 bytes for ./RNMainchainDemo
+copying file ./AppIcon40x40@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  3865 bytes for ./AppIcon40x40@2x~ipad.png
+copying file ./AppIcon76x76@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  7855 bytes for ./AppIcon76x76@2x~ipad.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon72x72~ipad.png ... 
+2019-06-13 08:42:19 +0000  3523 bytes for ./AppIcon72x72~ipad.png
 copying file ./main.jsbundle ... 
-2019-04-27 09:23:07 +0000  859802 bytes for ./main.jsbundle
-copying file ./embedded.mobileprovision ... 
-7677 bytes for ./embedded.mobileprovision
-copying file ./Data/mnemonic_japanese.txt ... 
-2019-04-27 09:23:07 +0000  26422 bytes for ./Data/mnemonic_japanese.txt
+2019-06-13 08:42:19 +0000  854295 bytes for ./main.jsbundle
+copying file ./AppIcon83.5x83.5@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  8767 bytes for ./AppIcon83.5x83.5@2x~ipad.png
+2019-06-13 08:42:19 +0000  copying file ./LaunchImage-700-568h@2x.png ... 
+2019-06-13 08:42:19 +0000  14942 bytes for ./LaunchImage-700-568h@2x.png
+copying file ./AppIcon50x50~ipad.png ... 
+2019-06-13 08:42:19 +0000  2145 bytes for ./AppIcon50x50~ipad.png
+copying file ./AppIcon29x29@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  2482 bytes for ./AppIcon29x29@2x~ipad.png
+copying file ./AppIcon50x50@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  4973 bytes for ./AppIcon50x50@2x~ipad.png
+copying file ./AppIcon40x40~ipad.png ... 
+2019-06-13 08:42:19 +0000  1720 bytes for ./AppIcon40x40~ipad.png
+copying file ./AppIcon20x20~ipad.png ... 
+2019-06-13 08:42:19 +0000  866 bytes for ./AppIcon20x20~ipad.png
+2019-06-13 08:42:19 +0000  copying file ./embedded.mobileprovision ... 
+2019-06-13 08:42:19 +0000  7677 bytes for ./embedded.mobileprovision
+2019-06-13 08:42:19 +0000  copying file ./Data/mnemonic_japanese.txt ... 
+2019-06-13 08:42:19 +0000  26422 bytes for ./Data/mnemonic_japanese.txt
 copying file ./Data/mnemonic_italian.txt ... 
-2019-04-27 09:23:07 +0000  16032 bytes for ./Data/mnemonic_italian.txt
+2019-06-13 08:42:19 +0000  16032 bytes for ./Data/mnemonic_italian.txt
 copying file ./Data/CoinConfig.json ... 
-2019-04-27 09:23:07 +0000  424 bytes for ./Data/CoinConfig.json
+2019-06-13 08:42:19 +0000  424 bytes for ./Data/CoinConfig.json
 copying file ./Data/mnemonic_spanish.txt ... 
-2019-04-27 09:23:07 +0000  13995 bytes for ./Data/mnemonic_spanish.txt
-2019-04-27 09:23:07 +0000  copying file ./Data/mnemonic_chinese.txt ... 
-2019-04-27 09:23:07 +0000  8191 bytes for ./Data/mnemonic_chinese.txt
-2019-04-27 09:23:07 +0000  copying file ./Data/mnemonic_french.txt ... 
-2019-04-27 09:23:07 +0000  16776 bytes for ./Data/mnemonic_french.txt
-2019-04-27 09:23:07 +0000  copying file ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png ... 
-2019-04-27 09:23:07 +0000  761 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png
+2019-06-13 08:42:19 +0000  13995 bytes for ./Data/mnemonic_spanish.txt
+copying file ./Data/mnemonic_chinese.txt ... 
+2019-06-13 08:42:19 +0000  8191 bytes for ./Data/mnemonic_chinese.txt
+copying file ./Data/mnemonic_french.txt ... 
+2019-06-13 08:42:19 +0000  16776 bytes for ./Data/mnemonic_french.txt
+2019-06-13 08:42:19 +0000  copying file ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png ... 
+2019-06-13 08:42:19 +0000  761 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png
 copying file ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png ... 
-2019-04-27 09:23:07 +0000  405 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png
+2019-06-13 08:42:19 +0000  405 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png
 copying file ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon.png ... 
-2019-04-27 09:23:07 +0000  290 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon.png
+2019-06-13 08:42:19 +0000  290 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon.png
 copying file ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png ... 
-2019-04-27 09:23:07 +0000  1619 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png
-2019-04-27 09:23:07 +0000  copying file ./Info.plist ... 
-2019-04-27 09:23:07 +0000  1315 bytes for ./Info.plist
-2019-04-27 09:23:07 +0000  copying file ./PkgInfo ... 
-2019-04-27 09:23:07 +0000  8 bytes for ./PkgInfo
-2019-04-27 09:23:07 +0000  /usr/bin/ditto exited with 0
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionEmbedProfileStep
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionAppThinningPlistStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCompileBitcodeStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCodeSlimmingStep
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionSymbolsStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionAppThinningStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionArchThinningStep
-2019-04-27 09:23:07 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app/RNMainchainDemo' '-verify_arch' 'arm64e'
-2019-04-27 09:23:07 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
-2019-04-27 09:23:07 +0000  Skipping architecture thinning for item "RNMainchainDemo" because arch "arm64e" wasn't found
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionODRStep
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionStripXattrsStep
-2019-04-27 09:23:07 +0000  Running /usr/bin/xattr '-crs' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app'
-2019-04-27 09:23:07 +0000  /usr/bin/xattr exited with 0
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCodesignStep
-2019-04-27 09:23:07 +0000  Entitlements for <IDEDistributionItem: 0x7f89e24b6be0 'org.reactjs.native.example.RNMainchainDemo' '<DVTFilePath:0x7f89e37b6420:'/Users/abilican/Library/Developer/Xcode/Archives/2019-04-27/RNMainchainDemo 27.04.19, 11.22.xcarchive/Products/Applications/RNMainchainDemo.app'>'>: {
-    "application-identifier" = "YU3GP553RA.org.reactjs.native.example.RNMainchainDemo";
+2019-06-13 08:42:19 +0000  1619 bytes for ./assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png
+2019-06-13 08:42:19 +0000  copying file ./AppIcon20x20@2x~ipad.png ... 
+2019-06-13 08:42:19 +0000  1720 bytes for ./AppIcon20x20@2x~ipad.png
+copying file ./Info.plist ... 
+2019-06-13 08:42:19 +0000  1897 bytes for ./Info.plist
+copying file ./PkgInfo ... 
+2019-06-13 08:42:19 +0000  8 bytes for ./PkgInfo
+copying file ./AppIcon76x76~ipad.png ... 
+2019-06-13 08:42:19 +0000  3581 bytes for ./AppIcon76x76~ipad.png
+2019-06-13 08:42:19 +0000  /usr/bin/ditto exited with 0
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionEmbedProfileStep
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2019-06-13 08:42:19 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2019-06-13 08:42:19 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2019-06-13 08:42:19 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionSymbolsStep
+2019-06-13 08:42:19 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionAppThinningStep
+2019-06-13 08:42:19 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionArchThinningStep
+2019-06-13 08:42:19 +0000  Running /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app/RNMainchainDemo' '-verify_arch' 'arm64e'
+2019-06-13 08:42:19 +0000  /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2019-06-13 08:42:19 +0000  Skipping architecture thinning for item "RNMainchainDemo" because arch "arm64e" wasn't found
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionODRStep
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionStripXattrsStep
+2019-06-13 08:42:19 +0000  Running /usr/bin/xattr '-crs' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app'
+2019-06-13 08:42:19 +0000  /usr/bin/xattr exited with 0
+2019-06-13 08:42:19 +0000  Processing step: IDEDistributionCodesignStep
+2019-06-13 08:42:19 +0000  Entitlements for <IDEDistributionItem: 0x7fd848e4abb0 'org.reactjs.native.example.ElastosUnityWallet' '<DVTFilePath:0x7fd82fdbf700:'/Users/abilican/Library/Developer/Xcode/Archives/2019-06-13/RNMainchainDemo 13.06.19, 10.41.xcarchive/Products/Applications/RNMainchainDemo.app'>'>: {
+    "application-identifier" = "YU3GP553RA.org.reactjs.native.example.ElastosUnityWallet";
     "com.apple.developer.team-identifier" = YU3GP553RA;
     "get-task-allow" = 1;
     "keychain-access-groups" =     (
-        "YU3GP553RA.org.reactjs.native.example.RNMainchainDemo"
+        "YU3GP553RA.org.reactjs.native.example.ElastosUnityWallet"
     );
 }
-2019-04-27 09:23:07 +0000  Writing entitlements for <IDEDistributionItem: 0x7f89e24b6be0 'org.reactjs.native.example.RNMainchainDemo' '<DVTFilePath:0x7f89e37b6420:'/Users/abilican/Library/Developer/Xcode/Archives/2019-04-27/RNMainchainDemo 27.04.19, 11.22.xcarchive/Products/Applications/RNMainchainDemo.app'>'> to: /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/entitlementsU0vKoo
-2019-04-27 09:23:07 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE2103CC7D8EFCF320F249EA1DF4877546BE07E3' '--entitlements' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/entitlementsU0vKoo' '--preserve-metadata=identifier,flags,runtime' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app'
-2019-04-27 09:23:07 +0000  /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app: replacing existing signature
-2019-04-27 09:23:07 +0000  /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root/Payload/RNMainchainDemo.app: signed app bundle with Mach-O universal (armv7 arm64) [org.reactjs.native.example.RNMainchainDemo]
-2019-04-27 09:23:07 +0000  /usr/bin/codesign exited with 0
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionZipODRItemStep
-2019-04-27 09:23:07 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
-2019-04-27 09:23:07 +0000  Processing step: IDEDistributionCreateIPAStep
-2019-04-27 09:23:07 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Packages/RNMainchainDemo.ipa'
-2019-04-27 09:23:07 +0000  >>> Copying /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.5CO/Root 
-2019-04-27 09:23:07 +0000  copying file ./Payload/RNMainchainDemo.app/_CodeSignature/CodeResources ... 
-2019-04-27 09:23:07 +0000  6659 bytes for ./Payload/RNMainchainDemo.app/_CodeSignature/CodeResources
-2019-04-27 09:23:07 +0000  copying file ./Payload/RNMainchainDemo.app/Base.lproj/LaunchScreen.nib ... 
-2019-04-27 09:23:07 +0000  3121 bytes for ./Payload/RNMainchainDemo.app/Base.lproj/LaunchScreen.nib
+2019-06-13 08:42:19 +0000  Writing entitlements for <IDEDistributionItem: 0x7fd848e4abb0 'org.reactjs.native.example.ElastosUnityWallet' '<DVTFilePath:0x7fd82fdbf700:'/Users/abilican/Library/Developer/Xcode/Archives/2019-06-13/RNMainchainDemo 13.06.19, 10.41.xcarchive/Products/Applications/RNMainchainDemo.app'>'> to: /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/entitlementsRZ0oBQ
+2019-06-13 08:42:19 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' 'EE2103CC7D8EFCF320F249EA1DF4877546BE07E3' '--entitlements' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/entitlementsRZ0oBQ' '--preserve-metadata=identifier,flags,runtime' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app'
+2019-06-13 08:42:19 +0000  /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app: replacing existing signature
+2019-06-13 08:42:20 +0000  /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root/Payload/RNMainchainDemo.app: signed app bundle with Mach-O universal (armv7 arm64) [org.reactjs.native.example.ElastosUnityWallet]
+2019-06-13 08:42:20 +0000  /usr/bin/codesign exited with 0
+2019-06-13 08:42:20 +0000  Processing step: IDEDistributionZipODRItemStep
+2019-06-13 08:42:20 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2019-06-13 08:42:20 +0000  Processing step: IDEDistributionCreateIPAStep
+2019-06-13 08:42:20 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root' '/var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Packages/RNMainchainDemo.ipa'
+2019-06-13 08:42:20 +0000  >>> Copying /var/folders/41/mynqv9qx0l329plbvlq67nmw0000gn/T/XcodeDistPipeline.gD5/Root 
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/_CodeSignature/CodeResources ... 
+2019-06-13 08:42:20 +0000  14443 bytes for ./Payload/RNMainchainDemo.app/_CodeSignature/CodeResources
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/AppIcon20x20@2x.png ... 
+2019-06-13 08:42:20 +0000  1720 bytes for ./Payload/RNMainchainDemo.app/AppIcon20x20@2x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon57x57.png ... 
+2019-06-13 08:42:20 +0000  2426 bytes for ./Payload/RNMainchainDemo.app/AppIcon57x57.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon20x20@3x.png ... 
+2019-06-13 08:42:20 +0000  2433 bytes for ./Payload/RNMainchainDemo.app/AppIcon20x20@3x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon29x29.png ... 
+1312 bytes for ./Payload/RNMainchainDemo.app/AppIcon29x29.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon60x60@2x.png ... 
+2019-06-13 08:42:20 +0000  5954 bytes for ./Payload/RNMainchainDemo.app/AppIcon60x60@2x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon72x72@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  7301 bytes for ./Payload/RNMainchainDemo.app/AppIcon72x72@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon29x29@2x.png ... 
+2019-06-13 08:42:20 +0000  2482 bytes for ./Payload/RNMainchainDemo.app/AppIcon29x29@2x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon40x40@3x.png ... 
+2019-06-13 08:42:20 +0000  5954 bytes for ./Payload/RNMainchainDemo.app/AppIcon40x40@3x.png
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/AppIcon57x57@2x.png ... 
+5631 bytes for ./Payload/RNMainchainDemo.app/AppIcon57x57@2x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon29x29~ipad.png ... 
+2019-06-13 08:42:20 +0000  1312 bytes for ./Payload/RNMainchainDemo.app/AppIcon29x29~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon40x40@2x.png ... 
+2019-06-13 08:42:20 +0000  3865 bytes for ./Payload/RNMainchainDemo.app/AppIcon40x40@2x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon29x29@3x.png ... 
+2019-06-13 08:42:20 +0000  4273 bytes for ./Payload/RNMainchainDemo.app/AppIcon29x29@3x.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon60x60@3x.png ... 
+2019-06-13 08:42:20 +0000  9569 bytes for ./Payload/RNMainchainDemo.app/AppIcon60x60@3x.png
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/Base.lproj/LaunchScreen.nib ... 
+2019-06-13 08:42:20 +0000  3115 bytes for ./Payload/RNMainchainDemo.app/Base.lproj/LaunchScreen.nib
+copying file ./Payload/RNMainchainDemo.app/Assets.car ... 
+2019-06-13 08:42:20 +0000  249096 bytes for ./Payload/RNMainchainDemo.app/Assets.car
 copying file ./Payload/RNMainchainDemo.app/RNMainchainDemo ... 
-2019-04-27 09:23:08 +0000  11330944 bytes for ./Payload/RNMainchainDemo.app/RNMainchainDemo
+2019-06-13 08:42:20 +0000  11364176 bytes for ./Payload/RNMainchainDemo.app/RNMainchainDemo
+copying file ./Payload/RNMainchainDemo.app/AppIcon40x40@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  3865 bytes for ./Payload/RNMainchainDemo.app/AppIcon40x40@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon76x76@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  7855 bytes for ./Payload/RNMainchainDemo.app/AppIcon76x76@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon72x72~ipad.png ... 
+2019-06-13 08:42:20 +0000  3523 bytes for ./Payload/RNMainchainDemo.app/AppIcon72x72~ipad.png
 copying file ./Payload/RNMainchainDemo.app/main.jsbundle ... 
-2019-04-27 09:23:08 +0000  859802 bytes for ./Payload/RNMainchainDemo.app/main.jsbundle
+2019-06-13 08:42:20 +0000  854295 bytes for ./Payload/RNMainchainDemo.app/main.jsbundle
+copying file ./Payload/RNMainchainDemo.app/AppIcon83.5x83.5@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  8767 bytes for ./Payload/RNMainchainDemo.app/AppIcon83.5x83.5@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/LaunchImage-700-568h@2x.png ... 
+2019-06-13 08:42:20 +0000  14942 bytes for ./Payload/RNMainchainDemo.app/LaunchImage-700-568h@2x.png
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/AppIcon50x50~ipad.png ... 
+2019-06-13 08:42:20 +0000  2145 bytes for ./Payload/RNMainchainDemo.app/AppIcon50x50~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon29x29@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  2482 bytes for ./Payload/RNMainchainDemo.app/AppIcon29x29@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon50x50@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  4973 bytes for ./Payload/RNMainchainDemo.app/AppIcon50x50@2x~ipad.png
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/AppIcon40x40~ipad.png ... 
+1720 bytes for ./Payload/RNMainchainDemo.app/AppIcon40x40~ipad.png
+copying file ./Payload/RNMainchainDemo.app/AppIcon20x20~ipad.png ... 
+2019-06-13 08:42:20 +0000  866 bytes for ./Payload/RNMainchainDemo.app/AppIcon20x20~ipad.png
 copying file ./Payload/RNMainchainDemo.app/embedded.mobileprovision ... 
-2019-04-27 09:23:08 +0000  7677 bytes for ./Payload/RNMainchainDemo.app/embedded.mobileprovision
-2019-04-27 09:23:08 +0000  copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_japanese.txt ... 
-2019-04-27 09:23:08 +0000  26422 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_japanese.txt
+2019-06-13 08:42:20 +0000  7677 bytes for ./Payload/RNMainchainDemo.app/embedded.mobileprovision
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_japanese.txt ... 
+2019-06-13 08:42:20 +0000  26422 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_japanese.txt
 copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_italian.txt ... 
-2019-04-27 09:23:08 +0000  16032 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_italian.txt
+2019-06-13 08:42:20 +0000  16032 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_italian.txt
 copying file ./Payload/RNMainchainDemo.app/Data/CoinConfig.json ... 
-2019-04-27 09:23:08 +0000  424 bytes for ./Payload/RNMainchainDemo.app/Data/CoinConfig.json
+2019-06-13 08:42:20 +0000  424 bytes for ./Payload/RNMainchainDemo.app/Data/CoinConfig.json
 copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_spanish.txt ... 
-2019-04-27 09:23:08 +0000  13995 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_spanish.txt
+2019-06-13 08:42:20 +0000  13995 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_spanish.txt
 copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_chinese.txt ... 
-2019-04-27 09:23:08 +0000  8191 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_chinese.txt
+2019-06-13 08:42:20 +0000  8191 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_chinese.txt
 copying file ./Payload/RNMainchainDemo.app/Data/mnemonic_french.txt ... 
-2019-04-27 09:23:08 +0000  16776 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_french.txt
-2019-04-27 09:23:08 +0000  copying file ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png ... 
-2019-04-27 09:23:08 +0000  761 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png
+2019-06-13 08:42:20 +0000  16776 bytes for ./Payload/RNMainchainDemo.app/Data/mnemonic_french.txt
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png ... 
+2019-06-13 08:42:20 +0000  761 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@3x.png
 copying file ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png ... 
-2019-04-27 09:23:08 +0000  405 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png
+2019-06-13 08:42:20 +0000  405 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon@2x.png
 copying file ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon.png ... 
 290 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon.png
 copying file ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png ... 
-2019-04-27 09:23:08 +0000  1619 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png
-2019-04-27 09:23:08 +0000  copying file ./Payload/RNMainchainDemo.app/Info.plist ... 
-2019-04-27 09:23:08 +0000  1315 bytes for ./Payload/RNMainchainDemo.app/Info.plist
-2019-04-27 09:23:08 +0000  copying file ./Payload/RNMainchainDemo.app/PkgInfo ... 
+2019-06-13 08:42:20 +0000  1619 bytes for ./Payload/RNMainchainDemo.app/assets/node_modules/react-navigation-stack/src/views/assets/back-icon-mask.png
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/AppIcon20x20@2x~ipad.png ... 
+2019-06-13 08:42:20 +0000  1720 bytes for ./Payload/RNMainchainDemo.app/AppIcon20x20@2x~ipad.png
+copying file ./Payload/RNMainchainDemo.app/Info.plist ... 
+1897 bytes for ./Payload/RNMainchainDemo.app/Info.plist
+2019-06-13 08:42:20 +0000  copying file ./Payload/RNMainchainDemo.app/PkgInfo ... 
 8 bytes for ./Payload/RNMainchainDemo.app/PkgInfo
-2019-04-27 09:23:08 +0000  /usr/bin/ditto exited with 0
-2019-04-27 09:23:08 +0000  Processing step: IDEDistributionAppStoreInformationStep
-2019-04-27 09:23:08 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
-2019-04-27 09:23:08 +0000  Processing step: IDEDistributionCreateManifestStep
+copying file ./Payload/RNMainchainDemo.app/AppIcon76x76~ipad.png ... 
+2019-06-13 08:42:20 +0000  3581 bytes for ./Payload/RNMainchainDemo.app/AppIcon76x76~ipad.png
+2019-06-13 08:42:20 +0000  /usr/bin/ditto exited with 0
+2019-06-13 08:42:20 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2019-06-13 08:42:20 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2019-06-13 08:42:20 +0000  Processing step: IDEDistributionCreateManifestStep

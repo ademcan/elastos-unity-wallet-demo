@@ -12,9 +12,9 @@ class Start extends Component {
     }
   }
 
-  componentDidMount() {
-    this.CreateWallet()
-  }
+  // componentDidMount() {
+  //   this.CreateWallet()
+  // }
 
   componentWillUnmount() {
   }
@@ -205,7 +205,7 @@ class Start extends Component {
               testID={'btn:GetMultiSignPubKeyWithMnemonic'}
               accessibilityLabel={"btn:GetMultiSignPubKeyWithMnemonic"}
               onPress={this.GetMultiSignPubKeyWithMnemonic}
-              title="GetMultiSignPubKeyWithMnemonic"/>
+              title="GetMultiSignPubKeyWithMnemonic (Android only)"/>
           </View>
 
           {/* <View style={{marginLeft:100, marginRight:100, marginBottom:10}}>

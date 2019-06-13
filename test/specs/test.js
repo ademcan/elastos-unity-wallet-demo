@@ -77,14 +77,14 @@ describe('Wallet Bridge Tests', () => {
         expect(txt).toEqual('success');
     });
 
-    it('calls the GetMultiSignPubKeyWithMnemonic bridge', async()=>{
-        await getBtnElement('GetMultiSignPubKeyWithMnemonic')
-        .then((elem) => elem.click())
-        let txtComponent = await getTxtElement('Result');
-        let txt = await txtComponent.getText();
-        expect(txt.length).toEqual(66);
-        expect(txt.substr(0, 2)).toEqual('03');
-    });
+    // it('calls the GetMultiSignPubKeyWithMnemonic bridge', async()=>{
+    //     await getBtnElement('GetMultiSignPubKeyWithMnemonic')
+    //     .then((elem) => elem.click())
+    //     let txtComponent = await getTxtElement('Result');
+    //     let txt = await txtComponent.getText();
+    //     expect(txt.length).toEqual(66);
+    //     expect(txt.substr(0, 2)).toEqual('03');
+    // });
 
     it('calls the GetPublicKey bridge', async()=>{
         await getBtnElement('GetPublicKey')
