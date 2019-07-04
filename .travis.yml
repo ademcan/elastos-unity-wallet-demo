@@ -118,10 +118,10 @@ install:
   - npm install -g detox-cli
   - npm install
   - react-native link
+script:
   - yes | sudo sdkmanager --licenses 
   - echo y | sdkmanager 'ndk-bundle'
   - echo y | sdkmanager 'cmake;3.6.4111459'
   - echo y | sdkmanager 'lldb;3.0'
-script:
   - detox build -c android.emu.release
   - detox test -c android.emu.release --cleanup
