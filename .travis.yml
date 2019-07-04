@@ -138,7 +138,7 @@ install:
   - echo y | sdkmanager "extras;android;m2repository" >/dev/null
   - echo y | sdkmanager "system-images;android-26;default;x86_64" >/dev/null # install our emulator
 before_script:
-  - echo no | android create avd --force -n test -t android-26 --abi x86_64
+  - echo no | android create avd --force -n test -k "system-images;android-26;default;x86_64" --abi x86_64
   - emulator -avd test -no-audio -no-window &
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
