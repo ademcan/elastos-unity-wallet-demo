@@ -114,13 +114,18 @@ install:
   - nvm install 10.2.1
   - nvm use 10.2.1
   - nvm alias default 10.2.1
-  - npm install -g react-native-cli
-  - npm install -g detox-cli
-  - npm install
-  - react-native link
+  # - npm install -g react-native-cli
+  # - npm install -g detox-cli
+  # - npm install
+  # - react-native link
+before_script:
+  - echo no | android create avd --force -n test -t android-27 --abi armeabi-v7a -c 100M
+  - emulator -avd test -no-audio -no-window &
+  - android-wait-for-emulator
+  - adb shell input keyevent 82 &
 script:
   - adb devices
-  - yes | sudo sdkmanager --licenses 
+  # - yes | sudo sdkmanager --licenses 
   - echo y | sdkmanager 'ndk-bundle'
   - echo y | sdkmanager 'cmake;3.6.4111459'
   - echo y | sdkmanager 'lldb;3.0'
