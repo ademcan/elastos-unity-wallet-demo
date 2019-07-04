@@ -16,75 +16,112 @@
 #   - npm run test-ios
 
 
-matrix:
-  include:
-    - language: objective-c
-      os: osx
-      osx_image: xcode10.1
-      env: DEVICE=12.1
-      branches:
-        only:
-        - master
-      env:
-        global:
-        - NODE_VERSION=10.2.1
-      before_install:
-        - brew install git-lfs
-      install:
-        - brew tap wix/brew
-        - brew install applesimutils
-        - git lfs pull
-        - pwd
-        - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-        - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-        - nvm install 10.2.1
-        - nvm use 10.2.1
-        - nvm alias default 10.2.1
-        - npm install -g react-native-cli
-        - npm install -g detox-cli
-        - npm install
-        - cd node_modules/react-native-elastos-wallet-core/lib/ios/
-        - rm libspvsdk.a
-        - wget https://ademcan.net/libspvsdk.a
-        - cd /Users/travis/build/ademcan/elastos-unity-wallet-demo
-        - ls node_modules/react-native-elastos-wallet-core/lib/ios/
-        - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
-        - react-native link
-      script:
-        - detox build -c ios.sim.release
-        - detox test -c ios.sim.release --cleanup
+# matrix:
+#   include:
+#     - language: objective-c
+#       os: osx
+#       osx_image: xcode10.1
+#       env: DEVICE=12.1
+#       branches:
+#         only:
+#         - master
+#       env:
+#         global:
+#         - NODE_VERSION=10.2.1
+#       before_install:
+#         - brew install git-lfs
+#       install:
+#         - brew tap wix/brew
+#         - brew install applesimutils
+#         - git lfs pull
+#         - pwd
+#         - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+#         - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+#         - nvm install 10.2.1
+#         - nvm use 10.2.1
+#         - nvm alias default 10.2.1
+#         - npm install -g react-native-cli
+#         - npm install -g detox-cli
+#         - npm install
+#         - cd node_modules/react-native-elastos-wallet-core/lib/ios/
+#         - rm libspvsdk.a
+#         - wget https://ademcan.net/libspvsdk.a
+#         - cd /Users/travis/build/ademcan/elastos-unity-wallet-demo
+#         - ls node_modules/react-native-elastos-wallet-core/lib/ios/
+#         - du -sh node_modules/react-native-elastos-wallet-core/lib/ios/libspvsdk.a
+#         - react-native link
+#       script:
+#         - detox build -c ios.sim.release
+#         - detox test -c ios.sim.release --cleanup
 
-    - language: android
-      dist: trusty
-      android:
-        components:
-        - tools
-        - platform-tools
-        - build-tools-27.0.3
-        - android-27
-        - extra-google-google_play_services
-        - extra-google-m2repository
-        - extra-android-m2repository
-        - sys-img-x86-android-26
-        - sys-img-x86-android-28
-      branches:
-        only:
-        - master
-      env:
-        global:
-        - NODE_VERSION=10.2.1
-      install:
-        - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-        - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-        - nvm install 10.2.1
-        - nvm use 10.2.1
-        - nvm alias default 10.2.1
-        - npm install -g react-native-cli
-        - npm install -g detox-cli
-        - npm install
-        - react-native link
-      script:
-        - yes | sudo sdkmanager --licenses 
-        - detox build -c android.emu.release
-        - detox test -c android.emu.release --cleanup
+#     - language: android
+#       dist: trusty
+#       android:
+#         components:
+#         - tools
+#         - platform-tools
+#         - build-tools-27.0.3
+#         - android-27
+#         - extra-google-google_play_services
+#         - extra-google-m2repository
+#         - extra-android-m2repository
+#         - sys-img-x86-android-26
+#         - sys-img-x86-android-28
+#       branches:
+#         only:
+#         - master
+#       env:
+#         global:
+#         - NODE_VERSION=10.2.1
+#       install:
+#         - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+#         - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+#         - nvm install 10.2.1
+#         - nvm use 10.2.1
+#         - nvm alias default 10.2.1
+#         - npm install -g react-native-cli
+#         - npm install -g detox-cli
+#         - npm install
+#         - react-native link
+#         - yes | sudo sdkmanager --licenses 
+#         - echo y | sdkmanager 'ndk-bundle'
+#       script:
+#         - detox build -c android.emu.release
+#         - detox test -c android.emu.release --cleanup
         
+language: android
+dist: trusty
+android:
+  components:
+  - tools
+  - platform-tools
+  - build-tools-27.0.3
+  - android-27
+  - extra-google-google_play_services
+  - extra-google-m2repository
+  - extra-android-m2repository
+  - sys-img-x86-android-26
+  - sys-img-x86-android-28
+branches:
+  only:
+  - master
+env:
+  global:
+  - NODE_VERSION=10.2.1
+install:
+  - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+  - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+  - nvm install 10.2.1
+  - nvm use 10.2.1
+  - nvm alias default 10.2.1
+  - npm install -g react-native-cli
+  - npm install -g detox-cli
+  - npm install
+  - react-native link
+  - yes | sudo sdkmanager --licenses 
+  - echo y | sdkmanager 'ndk-bundle'
+  - echo y | sdkmanager 'cmake;3.6.4111459'
+  - echo y | sdkmanager 'lldb;3.0'
+script:
+  - detox build -c android.emu.release
+  - detox test -c android.emu.release --cleanup
