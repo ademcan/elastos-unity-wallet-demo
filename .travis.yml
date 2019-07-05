@@ -159,7 +159,7 @@ install:
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
   - cat /home/travis/.android/avd/test.avd/config.ini
-  - echo 'skin.name=nexus_5x' >> /home/travis/.android/avd/test.avd/config.ini
+  - echo 'skin.name=test' >> /home/travis/.android/avd/test.avd/config.ini
   - echo 'hw.lcd.height=1920' >> /home/travis/.android/avd/test.avd/config.ini
   - echo 'hw.lcd.width=1080' >> /home/travis/.android/avd/test.avd/config.ini
   - cat /home/travis/.android/avd/test.avd/config.ini
