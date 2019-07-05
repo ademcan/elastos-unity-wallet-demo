@@ -141,6 +141,9 @@ install:
   - react-native link
 
   - echo 'count=0' > /home/travis/.android/repositories.cfg # Avoid harmless sdkmanager warning 
+  - echo y | sdkmanager 'ndk-bundle'
+  - echo y | sdkmanager 'cmake;3.6.4111459'
+  - echo y | sdkmanager 'lldb;3.0'
   - echo y | sdkmanager "platform-tools" >/dev/null
   - echo y | sdkmanager "tools" >/dev/null # A second time per Travis docs, gets latest versions
   - echo y | sdkmanager "build-tools;28.0.3" >/dev/null # Implicit gradle dependency - gradle drives changes
@@ -163,8 +166,6 @@ before_script:
 script:
   - adb devices
   # - yes | sudo sdkmanager --licenses 
-  # - echo y | sdkmanager 'ndk-bundle'
-  # - echo y | sdkmanager 'cmake;3.6.4111459'
-  # - echo y | sdkmanager 'lldb;3.0'
+  
   - detox build -c android.emu.release
   - detox test -c android.emu.release --cleanup
