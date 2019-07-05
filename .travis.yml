@@ -164,7 +164,7 @@ install:
   - echo 'hw.lcd.width=1080' >> /home/travis/.android/avd/test.avd/config.ini
   - cat /home/travis/.android/avd/test.avd/config.ini
 before_script:
-  - echo no | avdmanager create avd --force -n test -k "system-images;android-26;default;x86" --abi x86
+  - echo no | avdmanager create avd --force -n test -k "system-images;android-26;default;x86_64" --abi x86_64
   - emulator -avd test -no-audio -no-window &
   - android-wait-for-emulator
   - adb shell input keyevent 82 &
