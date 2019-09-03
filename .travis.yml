@@ -93,6 +93,8 @@ matrix:
   include:
     language: android
     dist: trusty
+    jdk:
+    - oraclejdk8
     android:
       components:
       
@@ -100,7 +102,7 @@ matrix:
       - android-27
       - platform-tools
       - tools
-      - build-tools-27.0.3
+      - build-tools-27.3.8
       
       # - android-28
       # - add-on
