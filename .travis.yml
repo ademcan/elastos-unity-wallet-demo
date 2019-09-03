@@ -166,7 +166,7 @@ matrix:
       # - echo 'hw.lcd.width=1080' >> /home/travis/.android/avd/test.avd/config.ini
       # - cat /home/travis/.android/avd/test.avd/config.ini
     before_script:
-      - echo no | android create avd --force -n test -t android-27 --abi x86_64 -c 100M
+      - echo no | android create avd --force -n test -t android-27 --abi x86 -c 100M
       - $ANDROID_HOME/emulator/emulator -avd test -no-audio -no-window &
       - android-wait-for-emulator
       - adb shell input keyevent 82 &
