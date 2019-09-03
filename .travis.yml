@@ -125,13 +125,14 @@ matrix:
       # PATH order is incredibly important. e.g. the 'emulator' script exists in more than one place!
       - ANDROID_HOME=/usr/local/android-sdk
       - TOOLS=${ANDROID_HOME}/tools
-      - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${PATH}
+      - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${PATH
       - API=27
     licenses:
       - 'android-sdk-preview-license-.+'
       - 'android-sdk-license-.+'
       - 'google-gdk-license-.+'
     install:
+      - export ANDROID_SDK_ROOT=$ANDROID_HOME
       - echo y | sdkmanager "ndk-bundle"
       - echo y | sdkmanager "platforms;android-27"
       - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
