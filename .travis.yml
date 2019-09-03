@@ -124,7 +124,7 @@ matrix:
       - ANDROID_HOME=/usr/local/android-sdk
       - TOOLS=${ANDROID_HOME}/tools
       - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${PATH}
-      - API=26
+      - API=27
     licenses:
       - 'android-sdk-preview-license-.+'
       - 'android-sdk-license-.+'
@@ -166,7 +166,7 @@ matrix:
       # - echo 'hw.lcd.width=1080' >> /home/travis/.android/avd/test.avd/config.ini
       # - cat /home/travis/.android/avd/test.avd/config.ini
     before_script:
-      - echo no | android create avd --force -n test -k "system-images;android-27;default;armeabi-v7a" --abi armeabi-v7a -c 100M
+      - echo no | android create avd --force -n test -t android-27 --abi armeabi-v7a -c 100M
       - $ANDROID_HOME/emulator/emulator -avd test -no-audio -no-window &
       - android-wait-for-emulator
       - adb shell input keyevent 82 &
