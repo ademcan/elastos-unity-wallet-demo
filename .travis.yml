@@ -95,7 +95,7 @@ matrix:
     dist: trusty
     android:
       components:
-      # - tools
+      - tools
       # - tools
       # - platform-tools
       - build-tools-27.0.3
