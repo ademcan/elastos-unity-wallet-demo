@@ -125,7 +125,7 @@ matrix:
       # PATH order is incredibly important. e.g. the 'emulator' script exists in more than one place!
       - ANDROID_HOME=/usr/local/android-sdk
       - TOOLS=${ANDROID_HOME}/tools
-      - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${PATH
+      - PATH=${ANDROID_HOME}:${ANDROID_HOME}/emulator:${TOOLS}:${TOOLS}/bin:${ANDROID_HOME}/platform-tools:${PATH}
       - API=27
     licenses:
       - 'android-sdk-preview-license-.+'
