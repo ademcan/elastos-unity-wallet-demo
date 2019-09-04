@@ -147,19 +147,19 @@ matrix:
     #   - 'android-sdk-preview-license-.+'
     #   - 'android-sdk-license-.+'
     #   - 'google-gdk-license-.+'
-    # install:
-    #   - export ANDROID_SDK_ROOT=$ANDROID_HOME
-    #   # - echo y | sdkmanager "ndk-bundle"
-    #   # - echo y | sdkmanager "platforms;android-27"
-    #   - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
-    #   - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-    #   - nvm install 10.2.1
-    #   - nvm use 10.2.1
-    #   - nvm alias default 10.2.1
-    #   - npm install -g react-native-cli
-    #   - npm install -g detox-cli
-    #   - npm install
-    #   - react-native link
+    install:
+      # - export ANDROID_SDK_ROOT=$ANDROID_HOME
+      # - echo y | sdkmanager "ndk-bundle"
+      # - echo y | sdkmanager "platforms;android-27"
+      - curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.2/install.sh | bash
+      - export NVM_DIR="$HOME/.nvm" && [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+      - nvm install 10.2.1
+      - nvm use 10.2.1
+      - nvm alias default 10.2.1
+      - npm install -g react-native-cli
+      - npm install -g detox-cli
+      - npm install
+      - react-native link
 
     #   # - echo 'count=0' > /home/travis/.android/repositories.cfg # Avoid harmless sdkmanager warning 
     #   - echo y | sdkmanager 'ndk-bundle'
