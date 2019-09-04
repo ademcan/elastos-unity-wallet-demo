@@ -33,7 +33,7 @@
         "build":
         "cd android && ./gradlew assembleRelease assembleAndroidTest -DtestBuildType=release && cd ..",
         "type": "android.emulator",
-        "name": "emulator-5554"
+        "name": "test"
     }
     },
     "test-runner": "mocha"
