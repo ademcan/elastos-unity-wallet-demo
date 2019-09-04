@@ -125,7 +125,7 @@ matrix:
       - extra-google-m2repository
       - extra-android-m2repository
       - sys-img-x86-android-$ANDROID_API_LEVEL
-      # - sys-img-x86-android-28
+      - sys-img-x86-android-27
       # - sys-img-armeabi-v7a-google_apis-26
       - sys-img-armeabi-v7a-google_apis-$ANDROID_API_LEVEL
     # branches:
