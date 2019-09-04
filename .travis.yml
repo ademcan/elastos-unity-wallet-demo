@@ -92,7 +92,7 @@
 matrix:
   include:
     language: android
-    dist: trusty
+    os: osx
     jdk:
     - oraclejdk8
     env:
@@ -114,7 +114,7 @@ matrix:
       - tools
       - android-$ANDROID_API_LEVEL
       - platform-tools
-      - tools
+      # - tools
       - build-tools-$ANDROID_BUILD_TOOLS_VERSION
       
       # - android-28
